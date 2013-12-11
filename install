@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+/usr/bin/env git clone git://github.com/thbourlove/tmux.git $HOME/.tmux
+cd $HOME/.tmux
+git submodule update
+ln -s $HOME/.tmux/tmux.conf $HOME/.tmux.conf
+ln -s $HOME/.tmux/tmux-powerlinerc $HOME/.tmux-powerlinerc
