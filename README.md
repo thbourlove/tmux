@@ -1,4 +1,3 @@
-tmux-conf
-=========
+### How to install
 
-personal tmux config file
+    wget https://raw.github.com/thbourlove/tmux/master/install -O - | sh
